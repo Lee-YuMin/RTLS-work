@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "304495421753",
+    "firebase_url": "https://inside-6718c.firebaseio.com",
+    "project_id": "inside-6718c",
+    "storage_bucket": "inside-6718c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304495421753:android:fbdf559c7d55c5e1",
+        "android_client_info": {
+          "package_name": "com.example.hatio.insidepositioning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304495421753-m41nms8mmt78kg5crlsdhe9t1ti6c2ct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4nPNi-iInHYOaZbmFU74WQNRcGjPVXd4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

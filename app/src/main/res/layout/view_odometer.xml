@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gauge="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:gravity="top" >
+
+        <com.example.hatio.insidepositioning.GaugeView
+            android:id="@+id/gauge_view1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center|top"
+        >
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textSize="30dp"
+        android:text="속도 :"
+        />
+
+    <TextView
+        android:id="@+id/tv_speed"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textSize="30dp"
+        android:text="20km"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center|top">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:textSize="30dp"
+            android:text="평균속도 :"
+            />
+
+        <TextView
+            android:id="@+id/tv_average_speed"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:textSize="30dp"
+            android:text="20km"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
